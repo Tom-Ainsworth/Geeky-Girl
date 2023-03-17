@@ -37,7 +37,7 @@ const Footer = () => {
 <div className={styles.footer-right}>
 
 	<div className={styles.foot-img} >
-		<img src="images\geeky_girl-removebg-preview_480.png" alt="" style="width:200px; border-radius:50%;"/>
+		{/* <img src="images\geeky_girl-removebg-preview_480.png" alt="" style="width:200px; border-radius:50%;"/> */}
 	</div>
 
 </div>
