@@ -1,2 +1,6 @@
 /* Home styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
+
+.Home {
+	background-color: blue;
+}
