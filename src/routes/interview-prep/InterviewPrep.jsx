@@ -1,7 +1,11 @@
 import React from "react";
 
 const InterviewPrep = () => {
-	return <div>InterviewPrep Page</div>;
+	return (
+		<div>
+			<h1>Hello</h1>
+		</div>
+	);
 };
 
 export default InterviewPrep;
