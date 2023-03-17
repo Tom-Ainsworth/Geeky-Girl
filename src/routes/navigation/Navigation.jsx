@@ -1,5 +1,6 @@
 import styles from "./Navigation.module.css";
 import { Outlet, Link } from "react-router-dom";
+import Logo from "../../assets/images/geeky_girl_logo.png";
 
 const Navigation = () => {
 	return (
@@ -9,7 +10,7 @@ const Navigation = () => {
 				<nav className={styles.nav_menu}>
 					
 					<ul className={styles.nav_ul}>
-						{/* <li><img className={styles.nav_logo} scr="" alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"></img></li> */}
+						<li><img className={styles.nav_logo} src={Logo} alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"/></li>
 						<li><a href="#home"></a>home</li>
 						<li><a href="#roadmap"></a>roadmap</li>
 						<li><a href="#interview"></a>interview</li>
