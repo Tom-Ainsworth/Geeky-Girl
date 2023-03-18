@@ -67,14 +67,26 @@ The planning and development of this project is divided into 5 planes:
 ---
 
 1. Home
+    * Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to ___ when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
-1. Path to Tech
+    * The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
 
-1. Interviews
+    * A footer with social media links is featured at the bottom to allow users to easily connect with the dev team. 
+    
+2. Roadmap
+    * The content of the Roadmap section consists of a simple but impactful timeline providing an easy roadmap for users to follow to becoming a software dev.
 
-1. Success Stories
+3. Interview Preparation
+    * The content of the Interview prep section consists of an overview of the top tips on how to prepare for a software engineer interview and possible questions to ask employers for equal pay.
 
-1. External Resources
+4. Success Stories
+    * The content of the Success Stories section consists of testimonies of female users in using our site in reaching their goals.
+    
+5. External Resources
+    * The content of the resources section consists of cards displaying info and links to external resources.
+
+6. Dev Team
+    * The content of the Dev Team page consists of profile cards of memebers of the team displaying social links and brief info.
 
 ### **Skeleton**
 
@@ -93,13 +105,15 @@ Wireframe
 ---
 
 ### Design
+Our desire is to design a web application that is clean and crisp with minimal distractions. All the fonts and styles are consistent throughout the site to make the users feel comfortable. With the help of CSS styles and media queries, the site is responsive across devices from desktop, laptop, tablet to mobile. Even on smaller devices, the contents are aligned proportionally and styled to make sure they are still legible and well-displayed. Altogether, the design and layout of the site should be entertaining and captivating so that a user is able to understand and enjoy the site.
+
 
 ### Typography
 
-The fonts I have chosen for the site is .... with .... as a fall back.
+The fonts I have chosen for the site is Zilla Slab with Sans Serif as a fall back.
 ![Image](assets/testing/typography.png)
 
-The website is fully responsive across all devices with the help of CSS styling and media queries along with Bootstrap to custom font sizes (smaller for mobile devices) and styles to keep all the content in place and legible.
+The website is fully responsive across all devices with the help of CSS styling and media queries to custom font sizes (smaller for mobile devices) and styles to keep all the content in place and legible.
 
 ### Colour Scheme
 
