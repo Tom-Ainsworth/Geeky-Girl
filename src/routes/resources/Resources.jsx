@@ -1,4 +1,8 @@
 import styles from "./Resources.module.css";
+import reactLogo from "../../assets/images/reactLogo.png";
+import djangoLogo from "../../assets/images/djangoLogo.png";
+import communitiesLogo from "../../assets/images/communitiesLogo.png";
+import { Fragment } from "react";
 
 const Resources = () => {
 	const resourceList = [
@@ -7,7 +11,7 @@ const Resources = () => {
 			title: "Free React Courses",
 			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
 			imageUrl:
-				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
+				reactLogo,
 			links: [
 				{
 					id: 1,
@@ -28,55 +32,57 @@ const Resources = () => {
 		},
 		{
 			id: 2,
-			title: "Free React Courses",
-			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+			title: "Free Django Courses",
+			body: "Build & deploy rich web applications and restful APIs using Django. Learn the fundamentals of building a full-featured web site using Django.",
 			imageUrl:
-				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
+				djangoLogo,
 			links: [
 				{
 					id: 1,
-					url: "https://www.codecademy.com/learn/react-101",
-					title: "CodeCademy - Learn React",
+					url: "https://www.udemy.com/course/try-django-2-2-python-web-development/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-L4SyP3SNuFBdmE5dcs2ezA&utm_source=aff-campaign&LSNPUBID=JVFxdTr9V80&utm_medium=udemyads",
+					title: "Udemy - Try Django",
 				},
 				{
 					id: 2,
-					url: "https://www.udemy.com/course/react-tutorial",
-					title: "Udemy - React JS FrontEnd",
+					url: "https://www.freecodecamp.org/news/tag/django/",
+					title: "FreeCodeCamp - Python Django Web Framework",
 				},
 				{
 					id: 3,
-					url: "https://legacy.reactjs.org/docs/getting-started.html",
-					title: "React Documentation",
+					url: "https://docs.djangoproject.com/en/4.1/",
+					title: "Django Documentation",
 				},
 			],
 		},
 		{
 			id: 3,
-			title: "Free React Courses",
-			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+			title: "Coding Communities",
+			body: "Find your favourite platform to collaborate, discuss your problems and solutions with female coders across the globe. Connect with Us now!",
 			imageUrl:
-				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
+				communitiesLogo,
 			links: [
 				{
 					id: 1,
-					url: "https://www.codecademy.com/learn/react-101",
-					title: "CodeCademy - Learn React",
+					url: "https://discord.me/server/join/protected/44ac42e0ff",
+					title: "Discord - Girls Who Code",
 				},
 				{
 					id: 2,
-					url: "https://www.udemy.com/course/react-tutorial",
-					title: "Udemy - React JS FrontEnd",
+					url: "https://bit.ly/Ehcslack",
+					title: "Slack - Empower Her",
 				},
 				{
 					id: 3,
-					url: "https://legacy.reactjs.org/docs/getting-started.html",
-					title: "React Documentation",
+					url: "https://roadmapcommunity.slack.com/join/shared_invite/zt-tjdar436-klYzFiNFroU_zNvsE9Q2JA?ref=thehiveindex.com&utm_source=thehiveindex.com#/shared-invite/email/expanded-email-form",
+					title: "Slack - RoadMap Community",
 				},
 			],
 		},
+		
 	];
 
 	return (
+
 		<div className={styles.resources}>
 			{resourceList.map((resource) => (
 				<div key={resource.id} className={styles.card}>
