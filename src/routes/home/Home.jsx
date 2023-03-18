@@ -1,5 +1,5 @@
-import tom from "./Home.module.css";
+// import tom from "./Home.module.css";
 
-const Home = () => <div className={tom.Home}>hello</div>;
+// const Home = () => <div className={tom.Home}>hello</div>;
 
-export default Home;
+// export default Home;

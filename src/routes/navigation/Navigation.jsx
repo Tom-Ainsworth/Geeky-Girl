@@ -10,8 +10,7 @@ const Navigation = () => {
 				<nav className={styles.nav_menu}>
 					
 					<ul className={styles.nav_ul}>
-						<li><img className={styles.nav_logo} src={Logo} alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"/></li>
-						<li><a href="#home"></a>home</li>
+						<li className={styles.active} ><a href="#home"><img className={styles.nav_logo} src={Logo} alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"/></a></li>
 						<li><a href="#roadmap"></a>roadmap</li>
 						<li><a href="#interview"></a>interview</li>
 						<li><a href="#success stories"></a>success stories</li>
