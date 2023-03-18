@@ -81,60 +81,16 @@ const Resources = () => {
 						<p className={styles.card_text}>{resource.body}</p>
 
 						<div className={styles.dropdown}>
-							<button
-								className={styles.dropbtn}
-								htmlFor="btnControl">
-								Links{" "}
-							</button>
+							<span>Links</span>
 							<div className={styles.dropdown_content}>
 								{resource.links.map((link) => {
-									<a href={link.url}>{link.title}</a>;
+									return <a href={link.url}>{link.title}</a>;
 								})}
 							</div>
 						</div>
 					</div>
 				</div>
 			))}
-
-			{/* <h1>Resources</h1>
-			<ul className="cards">
-				<li className={styles.cards_item}>
-					<div className={styles.card}>
-						<div className={styles.card_image}>
-							<img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" />
-						</div>
-						<div className={styles.card_content}>
-							<h2 className={styles.card_title}>
-								Free React Courses
-							</h2>
-							<p className={styles.card_text}>
-								Learn how to build powerful interactive
-								applications with one of the most popular
-								JavaScript libraries. In fact, this site is
-								built by React!
-							</p>
-							<div className={styles.dropdown}>
-								<button
-									className={styles.dropbtn}
-									htmlFor="btnControl">
-									Links{" "}
-								</button>
-								<div className={styles.dropdown_content}>
-									<a href="https://www.codecademy.com/learn/react-101">
-										CodeCademy - Learn React
-									</a>
-									<a href="https://www.udemy.com/course/react-tutorial/">
-										Udemy - React JS FrontEnd
-									</a>
-									<a href="https://legacy.reactjs.org/docs/getting-started.html">
-										React Documentation
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</li>
-			</ul> */}
 		</div>
 	);
 };
