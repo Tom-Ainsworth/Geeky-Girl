@@ -71,9 +71,11 @@ const Resources = () => {
 		<div className={styles.resources}>
 			{resourceList.map((resource) => (
 				<div key={resource.id} className={styles.card}>
-					<div className={styles.card_image}>
-						<img src={resource.imageUrl} />
-					</div>
+					<img
+						src={resource.imageUrl}
+						className={styles.card_image}
+					/>
+
 					<div className={styles.card_content}>
 						<h2 className={styles.card_title}>{resource.title}</h2>
 						<p className={styles.card_text}>{resource.body}</p>

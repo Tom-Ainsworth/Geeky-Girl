@@ -27,15 +27,22 @@
 	color: #5f6368;
 }
 
-@media screen and (max-width: 1200px) {
+.nav_logo {
+	width: 60px;
+}
+
+@media screen and (max-width: 850px) {
 	.nav_ul {
-		display: flex;
 		width: 100%;
-		text-align: center;
-		justify-content: center;
+
 		text-transform: uppercase;
 		height: 100%;
-		align-items: center;
+		/* align-items: center; */
 		flex-wrap: wrap;
+	}
+
+	/* TODO ADD BURGER MENU TO SHRINK NAV BAR AT 850PX AND LESS */
+	.nav_ul li {
+		justify-content: left;
 	}
 }
