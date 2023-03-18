@@ -1,6 +1,23 @@
 import styles from "./Resources.module.css";
 
 const Resources = () => {
+
+
+	const resourceList = [{
+		id:1, 
+		title:"Free React Courses",
+		body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+		links: [{
+			url:"https://www.codecademy.com/learn/react-101",
+			title:"CodeCademy - Learn React"},
+			{url:"https://www.udemy.com/course/react-tutorial",
+			title:"Udemy - React JS FrontEnd"},
+			{url:"https://legacy.reactjs.org/docs/getting-started.html",
+			title:"React Documentation"},
+	]}]
+	
+	
+
 	return    ( <div className={styles.resources}>
         <h1>Resources</h1>
         <ul className="cards">
