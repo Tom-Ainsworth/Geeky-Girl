@@ -1,31 +1,45 @@
 import styles from "./Navigation.module.css";
 import { Outlet, Link } from "react-router-dom";
 import Logo from "../../assets/images/geeky_girl_logo.png";
+import Footer from "../../components/Footer/Footer";
 
 const Navigation = () => {
 	return (
 		<>
 			<div className={styles.Navbar}>
-
 				<nav className={styles.nav_menu}>
-					
 					<ul className={styles.nav_ul}>
-						<li><img className={styles.nav_logo} src={Logo} alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"/></li>
-						<li><a href="#home"></a>home</li>
-						<li><a href="#roadmap"></a>roadmap</li>
-						<li><a href="#interview"></a>interview</li>
-						<li><a href="#success stories"></a>success stories</li>
-						<li><a href="#resources"></a>resources</li>
-						<li><a href="#biuld team"></a>biuld team</li>
+						<li>
+							<Link to="/">
+								<img
+									className={styles.nav_logo}
+									src={Logo}
+									alt="Company logo of a smiling woman with the word 'codes' as a smile"
+								/>
+							</Link>
+						</li>
+						<li>
+							<Link to="roadmap">Roadmap</Link>
+						</li>
+						<li>
+							<Link to="interview-preparation">
+								Interview Prep
+							</Link>
+						</li>
+						<li>
+							<Link to="success-stories">Success Stories</Link>
+						</li>
+						<li>
+							<Link to="resources">Resources</Link>
+						</li>
+						<li>
+							<Link to="team">Meet the Team</Link>
+						</li>
 					</ul>
-
-
-
-
-
 				</nav>
 			</div>
 			<Outlet />
+			<Footer />
 		</>
 	);
 };

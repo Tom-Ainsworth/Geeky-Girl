@@ -13,11 +13,11 @@ function App() {
 			<Route path="/" element={<Navigation />}>
 				<Route index element={<Home />} />
 				<Route path="roadmap" element={<Roadmap />} />
-				<Route path="success-stories" element={<SuccessStories />} />
 				<Route
 					path="interview-preparation"
 					element={<InterviewPrep />}
 				/>
+				<Route path="success-stories" element={<SuccessStories />} />
 				<Route path="resources" element={<Resources />} />
 				<Route path="team" element={<Team />} />
 			</Route>
