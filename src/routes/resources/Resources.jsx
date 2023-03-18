@@ -10,14 +10,17 @@ const Resources = () => {
 				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
 			links: [
 				{
+					id: 1,
 					url: "https://www.codecademy.com/learn/react-101",
 					title: "CodeCademy - Learn React",
 				},
 				{
+					id: 2,
 					url: "https://www.udemy.com/course/react-tutorial",
 					title: "Udemy - React JS FrontEnd",
 				},
 				{
+					id: 3,
 					url: "https://legacy.reactjs.org/docs/getting-started.html",
 					title: "React Documentation",
 				},
@@ -31,14 +34,17 @@ const Resources = () => {
 				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
 			links: [
 				{
+					id: 1,
 					url: "https://www.codecademy.com/learn/react-101",
 					title: "CodeCademy - Learn React",
 				},
 				{
+					id: 2,
 					url: "https://www.udemy.com/course/react-tutorial",
 					title: "Udemy - React JS FrontEnd",
 				},
 				{
+					id: 3,
 					url: "https://legacy.reactjs.org/docs/getting-started.html",
 					title: "React Documentation",
 				},
@@ -52,14 +58,17 @@ const Resources = () => {
 				"https://www.datocms-assets.com/45470/1631110818-logo-react-js.png",
 			links: [
 				{
+					id: 1,
 					url: "https://www.codecademy.com/learn/react-101",
 					title: "CodeCademy - Learn React",
 				},
 				{
+					id: 2,
 					url: "https://www.udemy.com/course/react-tutorial",
 					title: "Udemy - React JS FrontEnd",
 				},
 				{
+					id: 3,
 					url: "https://legacy.reactjs.org/docs/getting-started.html",
 					title: "React Documentation",
 				},
@@ -84,7 +93,11 @@ const Resources = () => {
 							<span>Links</span>
 							<div className={styles.dropdown_content}>
 								{resource.links.map((link) => {
-									return <a href={link.url}>{link.title}</a>;
+									return (
+										<a key={link.id} href={link.url}>
+											{link.title}
+										</a>
+									);
 								})}
 							</div>
 						</div>
