@@ -1,5 +1,5 @@
 import styles from "./Navigation.module.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import Logo from "../../assets/images/geeky_girl_logo.png";
 import Footer from "../../components/Footer/Footer";
 
@@ -10,30 +10,32 @@ const Navigation = () => {
 				<nav className={styles.nav_menu}>
 					<ul className={styles.nav_ul}>
 						<li>
-							<Link to="/">
+							<NavLink to="/">
 								<img
 									className={styles.nav_logo}
 									src={Logo}
 									alt="Company logo of a smiling woman with the word 'codes' as a smile"
 								/>
-							</Link>
+							</NavLink>
 						</li>
 						<li>
-							<Link to="roadmap">Roadmap</Link>
+							<NavLink to="roadmap">Roadmap</NavLink>
 						</li>
 						<li>
-							<Link to="interview-preparation">
+							<NavLink to="interview-preparation">
 								Interview Prep
-							</Link>
+							</NavLink>
 						</li>
 						<li>
-							<Link to="success-stories">Success Stories</Link>
+							<NavLink to="success-stories">
+								Success Stories
+							</NavLink>
 						</li>
 						<li>
-							<Link to="resources">Resources</Link>
+							<NavLink to="resources">Resources</NavLink>
 						</li>
 						<li>
-							<Link to="team">Meet the Team</Link>
+							<NavLink to="team">Meet the Team</NavLink>
 						</li>
 					</ul>
 				</nav>
