@@ -4,7 +4,11 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Karla&family=Zilla+Slab&display=swap");
 
-
+h1 {
+	font-size: 4em;
+	text-align: center;
+	padding: 10px;
+}
 .resources {
 	color: #272727;
 	font-family: 'Zilla Slab', serif;
