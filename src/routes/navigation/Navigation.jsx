@@ -1,31 +1,47 @@
 import styles from "./Navigation.module.css";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import Logo from "../../assets/images/geeky_girl_logo.png";
+import Footer from "../../components/Footer/Footer";
 
 const Navigation = () => {
 	return (
 		<>
 			<div className={styles.Navbar}>
-
 				<nav className={styles.nav_menu}>
-					
 					<ul className={styles.nav_ul}>
-						<li><img className={styles.nav_logo} src={Logo} alt="our company logo a smiling woman with html elemets for eye and the word code as a smile"/></li>
-						<li><a href="#home"></a>home</li>
-						<li><a href="#roadmap"></a>roadmap</li>
-						<li><a href="#interview"></a>interview</li>
-						<li><a href="#success stories"></a>success stories</li>
-						<li><a href="#resources"></a>resources</li>
-						<li><a href="#biuld team"></a>biuld team</li>
+						<li>
+							<NavLink to="/">
+								<img
+									className={styles.nav_logo}
+									src={Logo}
+									alt="Company logo of a smiling woman with the word 'codes' as a smile"
+								/>
+							</NavLink>
+						</li>
+						<li>
+							<NavLink to="roadmap">Roadmap</NavLink>
+						</li>
+						<li>
+							<NavLink to="interview-preparation">
+								Interview Prep
+							</NavLink>
+						</li>
+						<li>
+							<NavLink to="success-stories">
+								Success Stories
+							</NavLink>
+						</li>
+						<li>
+							<NavLink to="resources">Resources</NavLink>
+						</li>
+						<li>
+							<NavLink to="team">Meet the Team</NavLink>
+						</li>
 					</ul>
-
-
-
-
-
 				</nav>
 			</div>
 			<Outlet />
+			<Footer />
 		</>
 	);
 };

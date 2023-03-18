@@ -1,49 +1,52 @@
 import styles from "./Footer.module.css";
+import Logo from "../../assets/images/geeky_girl_logo.png";
 
 const Footer = () => {
-	return <footer className={styles.footer-distributed}>
-		             <div class="footer-left">
-    
-	<h3>Geeky<span>GIRL</span></h3>
+	return (
+		<footer className={styles.footer_distributed}>
+			<div className="footer-left">
+				<h3>
+					Geeky<span>GIRL</span>
+				</h3>
 
-	<p className={styles.footer-links}>
-		<a href="#">Link</a>
-		·
-		<a href="#">Link</a>
-		·
-		<a href="#">Link</a>
-		·
-		<a href="#">Link</a>
-		·
-		<a href="#">Link</a>
-		·
-		<a href="#">Link</a>
-	</p>
+				<p className={styles.footer_links}>
+					<a href="#">Link</a>·<a href="#">Link</a>·
+					<a href="#">Link</a>·<a href="#">Link</a>·
+					<a href="#">Link</a>·<a href="#">Link</a>
+				</p>
 
-	<p className={styles.footer-companyName}>Tindy and her minions </p>
+				<p className={styles.footer_companyName}>
+					Tindy and her minions{" "}
+				</p>
 
-	<div className={styles.footer-icons}>
+				<div className={styles.footer_icons}>
+					<a href="#">
+						<i className="fa fa-github"></i>
+					</a>
+					<a href="#">
+						<i className="fa fa-github"></i>
+					</a>
+					<a href="#">
+						<i className="fa fa-github"></i>
+					</a>
+					<a href="#">
+						<i className="fa fa-github"></i>
+					</a>
+					<a href="#">
+						<i className="fa fa-github"></i>
+					</a>
+				</div>
+			</div>
 
-		<a href="#"><i class="fa fa-github"></i></a>
-		<a href="#"><i class="fa fa-github"></i></a>
-		<a href="#"><i class="fa fa-github"></i></a>
-		<a href="#"><i class="fa fa-github"></i></a>
-		<a href="#"><i class="fa fa-github"></i></a>
-
-	</div>
-
-</div>
-
-<div className={styles.footer-right}>
-
-	<div className={styles.foot-img} >
-		{/* <img src="images\geeky_girl-removebg-preview_480.png" alt="" style="width:200px; border-radius:50%;"/> */}
-	</div>
-
-</div>
-
-
-	</footer>;
+			<div className={styles.footer_right}>
+				<img
+					src={Logo}
+					alt="Company Logo"
+					className={styles.footer_image}
+				/>
+			</div>
+		</footer>
+	);
 };
 
 export default Footer;
