@@ -67,14 +67,26 @@ The planning and development of this project is divided into 5 planes:
 ---
 
 1. Home
+    * Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to ___ when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
-1. Path to Tech
+    * The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
 
-1. Interviews
+    * A footer with social media links is featured at the bottom to allow users to easily connect with the dev team. 
+    
+2. Roadmap
+    * The content of the Roadmap section consists of a simple but impactful timeline providing an easy roadmap for users to follow to becoming a software dev.
 
-1. Success Stories
+3. Interview Preparation
+    * The content of the Interview prep section consists of an overview of the top tips on how to prepare for a software engineer interview and possible questions to ask employers for equal pay.
 
-1. External Resources
+4. Success Stories
+    * The content of the Success Stories section consists of testimonies of female users in using our site in reaching their goals.
+    
+5. External Resources
+    * The content of the resources section consists of cards displaying info and links to external resources.
+
+6. Dev Team
+    * The content of the Dev Team page consists of profile cards of memebers of the team displaying social links and brief info.
 
 ### **Skeleton**
 
