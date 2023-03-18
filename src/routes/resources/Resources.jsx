@@ -83,6 +83,9 @@ const Resources = () => {
 
 	return (
 
+		<div>
+			<h1>Resources</h1>
+
 		<div className={styles.resources}>
 			{resourceList.map((resource) => (
 				<div key={resource.id} className={styles.card}>
@@ -110,6 +113,7 @@ const Resources = () => {
 					</div>
 				</div>
 			))}
+		</div>
 		</div>
 	);
 };
