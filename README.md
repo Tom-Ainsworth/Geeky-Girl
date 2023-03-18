@@ -35,18 +35,32 @@ The planning and development of this project is divided into 5 planes:
 ---
 
 ### Creator Goals
+* to create an interactive web application that is fully responsive on desktop to smaller devices such as mobile.
 
--
+* to create a website with interface design, presenting a logical structure allowing users to easily navigate.
+
+* to build a site that female users will find enriching and rewarding following our roadmap to becoming a software developer.
 
 ### User Stories
+* As a first-time user, I would like the purpose of the website to be clear and straight forward.
 
--
+* As a first-time user, I would like to be able to navigate to desired sections on the site without having to search and scroll.
+
+* As a first-time user, I would like to easily access resources and guidance on becoming a software dev.
+
 
 ## **Scope Plane**
+* A simple home page with responsive navigation bar to allow user to easily navigate without having to scroll and to show the purpose of the website.
 
----
+* Simple roadmap design that is visually appealing, non-distracting and easy to follow.
 
--
+* Interview preparations and many more resources provided in different sections of the site so users can easily access to gain knownledge in becoming a software dev.
+
+* Testimonials are shared on the Success Stories section to encourage and motivate users to follow our guide to reach their goals and offer reassurance.
+
+* The design of the website should be visually consistent across all aspects to make it visually pleasing and comfortable for users.
+
+* The web application should be responsive across different resolutions.
 
 ## **Structure Plane**
 
