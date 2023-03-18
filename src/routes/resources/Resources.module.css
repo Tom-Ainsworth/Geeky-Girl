@@ -98,14 +98,18 @@ h1 {
 }
 
 .dropdown_content {
+	display: none;
 	position: absolute;
 	background-color: #f9f0e7;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 98;
+	z-index: 1;
 	max-height: 0;
 	min-width: 160px;
 	transition: max-height 0.15s ease-out;
-	overflow: hidden;
+}
+
+.dropdown:hover .dropdown_content {
+	display: block;
 }
 
 .dropdown_content a {
@@ -131,7 +135,6 @@ h1 {
 	border-bottom: 1px solid #e0e0e0;
 	transition: max-height 0.25s ease-in;
 }
-
 .cards_item {
 	display: flex;
 	padding: 1rem;
