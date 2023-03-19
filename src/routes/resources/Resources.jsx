@@ -78,7 +78,78 @@ const Resources = () => {
 				},
 			],
 		},
-		
+		{
+			id: 4,
+			title: "Free React Courses",
+			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+			imageUrl:
+				reactLogo,
+			links: [
+				{
+					id: 1,
+					url: "https://www.codecademy.com/learn/react-101",
+					title: "CodeCademy - Learn React",
+				},
+				{
+					id: 2,
+					url: "https://www.udemy.com/course/react-tutorial",
+					title: "Udemy - React JS FrontEnd",
+				},
+				{
+					id: 3,
+					url: "https://legacy.reactjs.org/docs/getting-started.html",
+					title: "React Documentation",
+				},
+			],
+		},
+		{
+			id: 5,
+			title: "Free React Courses",
+			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+			imageUrl:
+				reactLogo,
+			links: [
+				{
+					id: 1,
+					url: "https://www.codecademy.com/learn/react-101",
+					title: "CodeCademy - Learn React",
+				},
+				{
+					id: 2,
+					url: "https://www.udemy.com/course/react-tutorial",
+					title: "Udemy - React JS FrontEnd",
+				},
+				{
+					id: 3,
+					url: "https://legacy.reactjs.org/docs/getting-started.html",
+					title: "React Documentation",
+				},
+			],
+		},
+		{
+			id: 6,
+			title: "Free React Courses",
+			body: "Learn how to build powerful interactive applications with one of the most popular JavaScript libraries. In fact, this site is built by React!",
+			imageUrl:
+				reactLogo,
+			links: [
+				{
+					id: 1,
+					url: "https://www.codecademy.com/learn/react-101",
+					title: "CodeCademy - Learn React",
+				},
+				{
+					id: 2,
+					url: "https://www.udemy.com/course/react-tutorial",
+					title: "Udemy - React JS FrontEnd",
+				},
+				{
+					id: 3,
+					url: "https://legacy.reactjs.org/docs/getting-started.html",
+					title: "React Documentation",
+				},
+			],
+		},
 	];
 
 	return (
