@@ -26,11 +26,11 @@ const Navigation = () => {
 								Interview Prep
 							</NavLink>
 						</li>
-						<li>
+						{/* <li>
 							<NavLink to="success-stories">
 								Success Stories
 							</NavLink>
-						</li>
+						</li> */}
 						<li>
 							<NavLink to="resources">Resources</NavLink>
 						</li>
