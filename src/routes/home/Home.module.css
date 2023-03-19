@@ -8,6 +8,10 @@
 	width:100%
 }
 
+.hero_image_outer{
+	height: 1000px;
+}
+
 .info_woman{
 	display: flex;
 	width: 50%;
