@@ -45,7 +45,7 @@
 
 		text-transform: uppercase;
 		height: 100%;
-		/align-items: center; 
+		align-items: center; 
 		flex-wrap: wrap;
 	}
 
