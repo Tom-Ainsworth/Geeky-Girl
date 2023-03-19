@@ -1,7 +1,26 @@
 /* Home styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
 
-.Home {
-	background-color: blue;
-	font-size: 76px;
+.hero_img{
+	padding:0px;
+	margin:0px;
+	height: 100%px;
+	width:100%
+}
+
+.info_woman{
+	display: flex;
+	width: 50%;
+	height: 100%;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0 auto;
+	border: 1px solid #5f6368;
+	border-radius: 5px;
+	margin-top: 0;
+	font-size: x-large;
+	letter-spacing:1.5px ;
+	
+
 }
