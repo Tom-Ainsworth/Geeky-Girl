@@ -6,13 +6,17 @@
 	justify-content: center;
 	display: flex;
 	width: 75%;
+
+	
 }
 
 .hero_img{
 	padding:0px;
-	margin:0px;
+	margin:5px;
 	height:100%;
 	width:100%;
+	box-shadow: 3px -1px 20px 4px #5f6368;
+	border-radius: 15px;
 }
 
 .info_woman{
@@ -22,9 +26,9 @@
 	flex-direction: column;
 	justify-content: center;
 	margin: 0 auto;
-	border: 1px solid #5f6368;
 	border-radius: 5px;
 	margin-top: 0;
+	padding-top: 15px;
 	font-size: x-large;
 	letter-spacing:1.5px ;
 }
