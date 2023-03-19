@@ -1,9 +1,10 @@
 import styles from "./Home.module.css";
 import hero from "../../assets/images/hero.png"
+import SuccessStories  from "../success-stories/SuccessStories";
 const Home = () => <div className={styles.Home}>
     <div className={styles.hero_image_outer}>
         <img className={styles.hero_img} src={hero} alt="geeky girl home page main images inside there is some text" />
-    </div>     
+    </div> 
     <div className={styles.info_woman}>
         <h3>A current look at woman in the industry </h3>
         <p className={styles.info_woman_p}>As of 2023, women hold 26.7% of technology jobs.
@@ -14,9 +15,10 @@ const Home = () => <div className={styles.Home}>
         <p className={styles.info_woman_p}>Its overall national mean gender pay gap is 15.4pc,
             while its median is 13.8pc. Like a lot of companies
             on this list, HPE said the gap is skewed in favour of men
-            because of the low representation of women in higher-paid jobs </p>
-            
+            because of the low representation of women in higher-paid jobs
+        </p>
     </div>
+        <SuccessStories/>
     </div>;
 
            
