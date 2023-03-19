@@ -147,6 +147,31 @@ h1 {
 	padding: 1rem;
 }
 
+@media (max-width: 1400px){
+	.resources{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.card{
+		height: 25%;
+		width:25%
+	}
+}
+
+@media (max-width: 800px){
+	.resources{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.card{
+		height: 50%;
+		width:50%
+	}
+}
+
+
+
+
 @media (max-width: 650px) {
 	.resources {
 		flex-direction: column;
