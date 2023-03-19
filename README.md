@@ -35,58 +35,63 @@ The planning and development of this project is divided into 5 planes:
 ---
 
 ### Creator Goals
-* to create an interactive web application that is fully responsive on desktop to smaller devices such as mobile.
 
-* to create a website with interface design, presenting a logical structure allowing users to easily navigate.
+-   to create an interactive web application that is fully responsive on desktop to smaller devices such as mobile.
 
-* to build a site that female users will find enriching and rewarding following our roadmap to becoming a software developer.
+-   to create a website with interface design, presenting a logical structure allowing users to easily navigate.
+
+-   to build a site that female users will find enriching and rewarding following our roadmap to becoming a software developer.
 
 ### User Stories
-* As a first-time user, I would like the purpose of the website to be clear and straight forward.
 
-* As a first-time user, I would like to be able to navigate to desired sections on the site without having to search and scroll.
+-   As a first-time user, I would like the purpose of the website to be clear and straight forward.
 
-* As a first-time user, I would like to easily access resources and guidance on becoming a software dev.
+-   As a first-time user, I would like to be able to navigate to desired sections on the site without having to search and scroll.
 
+-   As a first-time user, I would like to easily access resources and guidance on becoming a software dev.
 
 ## **Scope Plane**
-* A simple home page with responsive navigation bar to allow user to easily navigate without having to scroll and to show the purpose of the website.
 
-* Simple roadmap design that is visually appealing, non-distracting and easy to follow.
+-   A simple home page with responsive navigation bar to allow user to easily navigate without having to scroll and to show the purpose of the website.
 
-* Interview preparations and many more resources provided in different sections of the site so users can easily access to gain knownledge in becoming a software dev.
+-   Simple roadmap design that is visually appealing, non-distracting and easy to follow.
 
-* Testimonials are shared on the Success Stories section to encourage and motivate users to follow our guide to reach their goals and offer reassurance.
+-   Interview preparations and many more resources provided in different sections of the site so users can easily access to gain knownledge in becoming a software dev.
 
-* The design of the website should be visually consistent across all aspects to make it visually pleasing and comfortable for users.
+-   Testimonials are shared on the Success Stories section to encourage and motivate users to follow our guide to reach their goals and offer reassurance.
 
-* The web application should be responsive across different resolutions.
+-   The design of the website should be visually consistent across all aspects to make it visually pleasing and comfortable for users.
+
+-   The web application should be responsive across different resolutions.
 
 ## **Structure Plane**
 
 ---
 
 1. Home
-    * Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to ___ when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
-    * The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
+    - Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to \_\_\_ when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
-    * A footer with social media links is featured at the bottom to allow users to easily connect with the dev team. 
-    
+    - The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
+
+    - A footer with social media links is featured at the bottom to allow users to easily connect with the dev team.
+
 2. Roadmap
-    * The content of the Roadmap section consists of a simple but impactful timeline providing an easy roadmap for users to follow to becoming a software dev.
+
+    - The content of the Roadmap section consists of a simple but impactful timeline providing an easy roadmap for users to follow to becoming a software dev.
 
 3. Interview Preparation
-    * The content of the Interview prep section consists of an overview of the top tips on how to prepare for a software engineer interview and possible questions to ask employers for equal pay.
+
+    - The content of the Interview prep section consists of an overview of the top tips on how to prepare for a software engineer interview and possible questions to ask employers for equal pay.
 
 4. Success Stories
-    * The content of the Success Stories section consists of testimonies of female users in using our site in reaching their goals.
-    
+    - The content of the Success Stories section consists of testimonies of female users in using our site in reaching their goals.
 5. External Resources
-    * The content of the resources section consists of cards displaying info and links to external resources.
+
+    - The content of the resources section consists of cards displaying info and links to external resources.
 
 6. Dev Team
-    * The content of the Dev Team page consists of profile cards of memebers of the team displaying social links and brief info.
+    - The content of the Dev Team page consists of profile cards of memebers of the team displaying social links and brief info.
 
 ### **Skeleton**
 
@@ -105,8 +110,8 @@ Wireframe
 ---
 
 ### Design
-Our desire is to design a web application that is clean and crisp with minimal distractions. All the fonts and styles are consistent throughout the site to make the users feel comfortable. With the help of CSS styles and media queries, the site is responsive across devices from desktop, laptop, tablet to mobile. Even on smaller devices, the contents are aligned proportionally and styled to make sure they are still legible and well-displayed. Altogether, the design and layout of the site should be entertaining and captivating so that a user is able to understand and enjoy the site.
 
+Our desire is to design a web application that is clean and crisp with minimal distractions. All the fonts and styles are consistent throughout the site to make the users feel comfortable. With the help of CSS styles and media queries, the site is responsive across devices from desktop, laptop, tablet to mobile. Even on smaller devices, the contents are aligned proportionally and styled to make sure they are still legible and well-displayed. Altogether, the design and layout of the site should be entertaining and captivating so that a user is able to understand and enjoy the site.
 
 ### Typography
 

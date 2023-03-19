@@ -18,6 +18,7 @@
     overflow: hidden;
     border-radius: 30px;
     margin: 0 auto;
+    height: 493px;
 }
 .container .image img {
     width: 100px;
@@ -44,26 +45,28 @@
 .container .box p {
    color: #fff;
    font-size: 15px;
-   line-height: 20px;
    letter-spacing: .1em;
-   padding-top: 20px;
+   padding: 20px;
+   height: 200px;
 }
 .icons {
    text-decoration: none;
-   font-size: 25px;
-   padding-top: 10px;
-}
-.fa {
+   font-size: 45px;
+   padding-top: 20px;
+    color: #fff
+ }
+
+ .icons a{
    color: #fff;
    padding: 10px;
    margin-left: 5px;
    text-align: center;
    text-decoration: none;
 }
-.fa:hover {
+.icons a:hover {
    color: #f2d4d1;
    transition: all .5s;
-}
+}  
 
 
 /* Extra small devices (phones, 600px and down) */

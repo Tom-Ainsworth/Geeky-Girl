@@ -1,7 +1,48 @@
 /* Home styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
 
-.Home {
-	background-color: blue;
-	font-size: 76px;
+.hero_image_outer {
+	margin: auto;
+	justify-content: center;
+	display: flex;
+	width: 75%;
+
+	
 }
+
+.hero_img{
+	padding:0px;
+	margin:5px;
+	height:100%;
+	width:100%;
+	box-shadow: 3px -1px 20px 4px #5f6368;
+	border-radius: 15px;
+}
+
+ h3{
+	padding: 20px;
+}
+ 
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	padding: 30px;
+	box-sizing: border-box;
+
+} 
+.container .box {
+	position: relative;
+	background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+	padding: 10px 30px 30px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 30px;
+	margin: 0 auto;
+	height: 100%;
+} 
+
+ 

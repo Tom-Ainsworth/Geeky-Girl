@@ -147,13 +147,48 @@ h1 {
 	padding: 1rem;
 }
 
-@media (max-width: 650px) {
-	.resources {
-		flex-direction: column;
+@media screen and  (max-width: 1400px){
+	.resources{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.card{
+		height: 25%;
+		width:25%
 	}
 }
 
-@media (min-width: 56rem) {
+
+@media screen and (max-width:966px){
+	.resources{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+	.card {
+		height: 40%;
+		width: 40%
+	}
+}
+
+@media screen and (max-width: 720px){
+	.resources{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.card{
+		height: 50%;
+		width:50%
+	}
+}
+@media screen and (max-width: 650px) {
+	.resources {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (min-width: 56rem) {
 	.cards_item {
 		width: 33.3333%;
 	}
