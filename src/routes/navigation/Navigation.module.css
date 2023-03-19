@@ -1,33 +1,31 @@
 /* Navbar styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
 
-.nav_ul {
+
+ .nav_ul {
 	width: 100%;
 	height: 50px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	background-color: #5f6368;
 	color: white;
 	font-size: x-large;
+	list-style-type: none;
+	padding: 30px 0px;
+	text-transform: uppercase;
+	
 }
 
-.nav_ul li {
-	display: flex;
-	width: 100%;
-	text-align: center;
-	justify-content: center;
-	text-transform: uppercase;
-	height: 100%;
-	align-items: center;
-}
 
 .nav_ul li a {
 	text-decoration: none;
 	color: #f2d4d1;
-}
 
-.nav_ul li a:hover {
+}  
+
+
+ .nav_ul a:hover {
 	background-color: #f2d4d1;
 	color: #5f6368;
 }
@@ -42,7 +40,7 @@
 
 		text-transform: uppercase;
 		height: 100%;
-		/* align-items: center; */
+		/align-items: center; 
 		flex-wrap: wrap;
 	}
 
