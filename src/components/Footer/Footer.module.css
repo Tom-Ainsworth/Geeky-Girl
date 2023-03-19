@@ -1,13 +1,15 @@
 .footer_distributed {
-	/* background: #444; */
 	background: #5f6368;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	font: bold 16px sans-serif;
 	text-align: left;
-	padding: 50px 160px 40px;
+	padding: 15px 160px 15px;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
 section {
@@ -41,7 +43,6 @@ section {
 }
 
 .footer_distributed h3 span {
-	/* color:  #5383d3; */
 	color: #f2d4d1;
 }
 
@@ -72,6 +73,10 @@ section {
 
 .footer_distributed .footer_icons {
 	margin-top: 40px;
+}
+
+.footer_distributed .footer_icons a :hover{
+	color:#f2d4d1;
 }
 
 .footer_distributed .footer_icons a {
