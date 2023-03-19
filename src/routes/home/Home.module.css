@@ -19,20 +19,30 @@
 	border-radius: 15px;
 }
 
-.info_woman{
-	width: 100%;
-	height: 100%;
-	align-items: center;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 auto;
-	border-radius: 5px;
-	margin-top: 0;
-	padding-top: 15px;
-	font-size: x-large;
-	letter-spacing:1.5px ;
-}
-
-.info_woman h3{
+ h3{
 	padding: 20px;
 }
+ 
+.container {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	padding: 30px;
+	box-sizing: border-box;
+
+} 
+.container .box {
+	position: relative;
+	background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+	padding: 10px 30px 30px;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 30px;
+	margin: 0 auto;
+	height: 100%;
+} 
+
+ 
