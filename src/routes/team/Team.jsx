@@ -22,7 +22,7 @@ const Team = () => {
             <h2>Full Stack Developer</h2>
                   <p>Hey, I'm Tom! I'm a Junior Full Stack Developer at Commodities Engineering mainly using Java, and I love working with React in my own time.</p>
             <div className={styles.icons}>
-                <a href="www.github.com" target={"_blank"}><i className="fa fa-github"></i></a>
+                <a href="https://github.com/Tom-Ainsworth" target={"_blank"}><i className="fa fa-github"></i></a>
             </div>
         </div>
 
@@ -35,7 +35,7 @@ const Team = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro incidunt amet vel quisquam optio commodi aperiam eligendi.
             </p>
             <div className={styles.icons}>
-                <a href="www.github.com" target={"_blank"}><i className="fa fa-github"></i></a>
+                      <a href="https://github.com/tindyc" target={"_blank"}><i className="fa fa-github"></i></a>
             </div>
         </div>
 
@@ -51,7 +51,7 @@ const Team = () => {
                       🥅 2022 Goals: Learn more about backend technologies
                       My hobbies are Reading, coding and ocassionaly gaming</p>
             <div className={styles.icons}>
-                <a href="www.github.com" target={"_blank"}><i className="fa fa-github"></i></a>
+                <a href="https://github.com/rockroman" target={"_blank"}><i className="fa fa-github"></i></a>
             </div>
         </div>
 
@@ -63,7 +63,7 @@ const Team = () => {
             <h2>student at ci</h2>
                   <p>Hey, I'm ignus I'm a student at CI ,having fun learning</p>
             <div className={styles.icons}>
-                <a href="www.github.com" target={"_blank"}><i className="fa fa-github"></i></a>
+                <a href="https://github.com/ignasvilkas" target={"_blank"}><i className="fa fa-github"></i></a>
             </div>
         </div>
 
@@ -75,8 +75,8 @@ const Team = () => {
             <h2>student at ci</h2>
                   <p>Hey, I'm benji! I'm a student at CI ,having fun learning.</p>
             <div className={styles.icons}>
-                <a href="www.github.com" target={"_blank"}><i className="fa fa-github"></i></a>
-            </div>
+                      <a href="https://github.com/Benjamin-Riordan" target={"_blank"}><i className="fa fa-github"></i></a>
+             </div>
         </div>
 
 		{/* <div className={styles.box}>
