@@ -1,2 +1,74 @@
 /* Team page styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Zilla+Slab&display=swap");
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	padding: 10px;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-gap: 10px;
+    padding: 3em;
+    box-sizing: border-box;
+}
+.container .box {
+    padding: 10px;
+    position: relative;
+    background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+    padding: 10px 30px 30px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.container .image img {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: #000000;
+}
+.container .box h1 {
+    font-size: 25px;
+    color: #ffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.container .box h2 {
+   font-size: 17px;
+   color: #fff;
+   text-transform: uppercase;
+   opacity: .4;
+   z-index: 1;
+   letter-spacing: .1em;
+}
+.container .box p {
+   color: #fff;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: .1em;
+   padding-top: 20px;
+}
+.icons {
+   text-decoration: none;
+   font-size: 25px;
+   padding-top: 10px;
+}
+.fa {
+   color: #fff;
+   padding: 10px;
+   margin-left: 5px;
+   text-align: center;
+}
+.fa:hover {
+   color: rgb(243, 190, 241);
+   transition: all .5s;
+}
