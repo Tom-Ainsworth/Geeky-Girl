@@ -52,18 +52,20 @@
    text-decoration: none;
    font-size: 25px;
    padding-top: 10px;
-}
-.fa {
+    color: #fff
+ }
+
+ .icons a{
    color: #fff;
    padding: 10px;
    margin-left: 5px;
    text-align: center;
    text-decoration: none;
 }
-.fa:hover {
+.icons a:hover {
    color: #f2d4d1;
    transition: all .5s;
-}
+}  
 
 
 /* Extra small devices (phones, 600px and down) */
