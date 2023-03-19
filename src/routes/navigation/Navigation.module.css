@@ -22,7 +22,12 @@
 	align-items: center;
 }
 
-.nav_ul li:hover {
+.nav_ul li a {
+	text-decoration: none;
+	color: #f2d4d1;
+}
+
+.nav_ul li a:hover {
 	background-color: #f2d4d1;
 	color: #5f6368;
 }
