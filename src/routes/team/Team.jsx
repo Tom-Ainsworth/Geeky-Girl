@@ -56,8 +56,8 @@ const Team = () => {
             <div className={styles.image}>
                 <img src={ignus} alt="the man with all the plans"/>
             </div>
-            <h1>ignus</h1>
-                  <p>Hey, I'm ignus I'm a student at CI ,having fun learning</p>
+            <h1>ignas</h1>
+                  <p>Hey, I'm ignas I'm a student at CI, having fun learning</p>
             <div className={styles.icons}>
                 <a href="https://github.com/ignasvilkas" target={"_blank"}><i className="fa fa-github"></i></a>
             </div>
@@ -68,7 +68,7 @@ const Team = () => {
                 <img src={benji} alt="the support"/>
             </div>
             <h1>benji</h1>
-                  <p>Hey, I'm benji! I'm a student at CI ,having fun learning.</p>
+                  <p>Hey, I'm benji! I'm a student at CI, having fun learning.</p>
             <div className={styles.icons}>
                       <a href="https://github.com/Benjamin-Riordan" target={"_blank"}><i className="fa fa-github"></i></a>
              </div>
