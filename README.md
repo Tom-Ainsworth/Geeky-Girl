@@ -70,7 +70,7 @@ The planning and development of this project is divided into 5 planes:
 
 1. Home
 
-    - Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to \_\_\_ when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
+    - Navbar is always fixed on top of the page with "Geeky Girl" logo on the left-hand side of the bar and a menu on the right with clear names of site pages for the ease of navigation. The colour will change to #989BA4 when the users hovers over them to reinforce the links are clickable. This Navbar will stay consistent throughout the entire website and will automatically minimised into a hamburger menu on smaller devices.
 
     - The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
 
@@ -111,41 +111,45 @@ Our desire is to design a web application that is clean and crisp with minimal d
 ### Typography
 
 The fonts I have chosen for the site is Zilla Slab with Sans Serif as a fall back.
-![Image](assets/testing/typography.png)
 
 The website is fully responsive across all devices with the help of CSS styling and media queries to custom font sizes (smaller for mobile devices) and styles to keep all the content in place and legible.
 
 ### Colour Scheme
 
-![Image](assets/testing/colourscheme.png)
+![Image](src/assets/images/colourscheme.png)
 
 ## **Features**
 
----
+This project is neat and straight forward. It is logically designed whilst also keeping design consistency in all aspects of the page. The navigation bar allows easy navigation with faster, more efficient access to the desired content. It stays fixed on top of the page. It is responsive across different resolutions and collapses according to screen size at 768px width or smaller to encourage a user-friendly and minimalist design. Hover effect is used in all links and icons to add a bit of animation to the site to make it more appealing and to reinforce the links are clickable. The links will open a new tab so that the user does not leave the site. The use of CSS and media queries have allowed the site to be responsive across various devices.
+
 
 ### Home page
 
--
+- Large quintessential Hero image, with heading text laid on top, is in the header of the home page to draw the attention of the users and to encourage users to read more. 
+
+- Brief intro on the current state of the industry for women and statements regarding pay disparity between genders. The Narbar provides direct links to all section of the site. The footer contains social links to allow users to connect with site owner.
 
 ### Path to Tech
 
--
+- Animated timeline to display roadmap to becoming a software developer.
 
 ### Interviews
 
--
-
-### Success Stories
-
--
+- Interview preparation guide with top interview questions and approaches to how to answer them displayed in various cards.
 
 ### External Resources
 
--
+- Links to  Free courses from external resources displayed in cards.
+
+### Meet the team
+
+- Profile cards displaying the developer's Team.
 
 ### Features to be implemented in the future
 
--
+- Authetication system to allow users to sign up and connect with each other.
+
+- Messaging system to allow users to communicate with each other.
 
 ## **Technologies**
 
@@ -180,21 +184,13 @@ The website is fully responsive across all devices with the help of CSS styling 
 #### HTML
 
 -   All HTML code was tested and validated with W3C Markup Checker.
-    ![Image](assets/testing/html-validation.png)
+
 
 #### CSS
 
 -   All CSS code was tested and validated with W3C CSS Validation Service.
-    ![Image](assets/testing/css-validation.png)
 -   No errors or warnings reported.
 
-#### JavaScript
-
--   All JavaScript code was checked using JSHint.
-
-### Testing User Stories
-
--
 
 ### Link Testing
 
@@ -202,42 +198,12 @@ The website is fully responsive across all devices with the help of CSS styling 
 -   All the internal site links will navigate to the right path and have been manually tested to confirm they will direct user to expected page.
 -   By clicking on the "Submit" button in the contact form, if all the fields are filled correctly and in the right format, an email will be sent to the site owner and an alert will pop up to indicate the form is sent.
 
-### Navigation Testing
-
-### Lighthouse
-
-We used Lighthouse on Google Chrome DevTools to identify and fix common problems that affected our site's performance, accessibility, and user experience.
-![Image](assets/testing/lighthousescores.png)
-
-#### Accessibility
-
--
-
-#### Performance
-
--
-
-#### Best Practices
-
--
-
-#### SEO
-
--   The SEO score for our site is ...
-
-### Device and Brower Responsiveness Testing
-
--
-
-### Other issues
-
--
 
 ## **Deployment**
 
 ---
 
-This project is hosted using ...
+This project is hosted using Vercel.
 The deployed site automatically updates simultaneously to new commits to the master branch.
 
 ## **Credits**
@@ -246,4 +212,8 @@ The deployed site automatically updates simultaneously to new commits to the mas
 
 ### Media
 
+All images created using CANVA.com
+
 ### Acknowledgements
+
+We would like to thank Code Institute for creating this wonderful opportunity and bringing our team together to build this amazing app to contribute to the advancement of women in the tech industry. And of course, our family and friends for their love and supporting whilst we were busy coding!
