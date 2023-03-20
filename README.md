@@ -4,15 +4,15 @@
 
 March 2023 Hackaton Project- Women In Tech
 
-{{APP DESCRIPTION}}
+Geeky Girl is a revolutionary platform designed for women who aspire to become software developers. Developed by "Tindy and her minions", this app provides a roadmap to becoming a skilled programmer, with a particular focus on empowering women in the tech industry. With its user-friendly interface and engaging learning resources, Geeky Girl offers a comprehensive learning experience for aspiring developers of all skill levels. Whether you're a beginner or an experienced programmer, Geeky Girl offers an array of resources, including interview preparation guides and free courses, to help you achieve your career goals. Join the Geeky Girl community today and discover the power of women in tech!
 
 ## **Demo**
 
 ---
 
-A live demo can be found [here](https://example.com).
+A live demo can be found [here](https://geeky-girl.vercel.app/).
 
-![Image](assets/testing/multidevicescreenshot.png)
+![Image](src/assets/images/multidevicescreenshot.png)
 
 ## **User Experience**
 
@@ -74,6 +74,8 @@ The planning and development of this project is divided into 5 planes:
 
     - The content of the home page contains a brief on the current state of the industry for women and statements regarding pay disparity between genders.
 
+    - The Success Stories section consists of testimonies of female users in using our site in reaching their goals.
+
     - A footer with social media links is featured at the bottom to allow users to easily connect with the dev team.
 
 2. Roadmap
@@ -84,26 +86,19 @@ The planning and development of this project is divided into 5 planes:
 
     - The content of the Interview prep section consists of an overview of the top tips on how to prepare for a software engineer interview and possible questions to ask employers for equal pay.
 
-4. Success Stories
-    - The content of the Success Stories section consists of testimonies of female users in using our site in reaching their goals.
-5. External Resources
+4. External Resources
 
     - The content of the resources section consists of cards displaying info and links to external resources.
 
-6. Dev Team
+5. Dev Team
     - The content of the Dev Team page consists of profile cards of memebers of the team displaying social links and brief info.
 
 ### **Skeleton**
 
 Wireframe
 
-[Home Wireframe](assets/wireframes/homewireframe.pdf)
+![Image](src/assets/images/wireframe.png)
 
-[Path Wireframe](assets/wireframes/pathwireframe.pdf)
-
-[Interviews Wireframe](assets/wireframes/interviewswireframe.pdf)
-
-[Resources Wireframe](assets/wireframes/resourcesswireframe.pdf)
 
 ## **Surface**
 
