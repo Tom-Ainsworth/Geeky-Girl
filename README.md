@@ -159,9 +159,7 @@ This project is neat and straight forward. It is logically designed whilst also 
 
 -   [CSS](https://www.w3schools.com/css/) - language used to style the HTML elements.
 
--   [Javascript](https://www.javascript.com/) - main language used to add interactive behaviours to the site that engage users and for DOM manipulation.
-
--   [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - main framework used to make the website responsive and to structure content.
+-   [React](https://react.dev/) - language used to build user interfaces based on components. 
 
 -   [Font Awesome](https://fontawesome.com/)- provided icons to create social links.
 
