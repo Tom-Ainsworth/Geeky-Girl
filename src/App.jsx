@@ -2,7 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import Navigation from "./routes/navigation/Navigation";
 import Home from "./routes/home/Home";
 import Roadmap from "./routes/roadmap/Roadmap";
-import SuccessStories from "./routes/success-stories/SuccessStories";
 import InterviewPrep from "./routes/interview-prep/InterviewPrep";
 import Resources from "./routes/resources/Resources";
 import Team from "./routes/team/Team";
@@ -17,7 +16,6 @@ function App() {
 					path="interview-preparation"
 					element={<InterviewPrep />}
 				/>
-				<Route path="success-stories" element={<SuccessStories />} />
 				<Route path="resources" element={<Resources />} />
 				<Route path="team" element={<Team />} />
 			</Route>

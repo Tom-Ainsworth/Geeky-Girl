@@ -39,7 +39,7 @@
 	color: #f2d4d1;
 	font-size: 50px;
 	cursor: pointer;
-	z-index: 1;
+	z-index: 2;
 }
 
 .closed {
@@ -99,6 +99,7 @@
 		color: #f2d4d1;
 		font-size: 50px;
 		cursor: pointer;
+		z-index: 2;
 	}
 
 	.closed {
