@@ -43,7 +43,7 @@ const InterviewPrep = () => {
 
 		  <li className={styles.cards_item}>
             <div className={styles.card_content}>
-              <h2 className={styles.card_title}>Can You Describe the Steps Involved in Software Development?</h2>
+              <h2 className={styles.card_title}>Describe the Steps Involved in Software Development?</h2>
               <div className={styles.card_text}>
                 <p>
 				Software development questions about process help the interviewer get a sense of your working style. Remember to be detailed when describing the steps you take to complete a project.
@@ -60,7 +60,7 @@ const InterviewPrep = () => {
 
 		  <li className={styles.cards_item}>
             <div className={styles.card_content}>
-              <h2 className={styles.card_title}>Tell Me About a Software Development Project You Completed Successfully.</h2>
+              <h2 className={styles.card_title}>Tell Me About a coding project You Completed Successfully.</h2>
               <div className={styles.card_text}>
                 <p>
 				Interview questions for experienced software developers will delve more deeply into projects you've successfully completed to give you the chance to explain your process in detail.
@@ -94,7 +94,7 @@ const InterviewPrep = () => {
 
 		  <li className={styles.cards_item}>
             <div className={styles.card_content}>
-              <h2 className={styles.card_title}>Can You Differentiate Between Functional and Object-Oriented Programming?</h2>
+              <h2 className={styles.card_title}>Differentiate Between Functional / Object-Oriented Programming?</h2>
               <div className={styles.card_text}>
                 <p>
 				Both functional and object-oriented programming are commonly used in software development. But they have key differences and purposes that are critical for candidates to know and be able to articulate.
