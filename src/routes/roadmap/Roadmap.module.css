@@ -1,5 +1,29 @@
 /* Roadmap styles go in here */
 /* To add a class to an element, use the syntax className={styles.yourChosenClassName} */
 
-/* .roadmap {
-} */
+h1 {
+	color: rgb(63, 68, 73);
+}
+.Card h3 {
+	padding: 20px 0px;
+	border-radius: 30px;
+}
+
+.Card p {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.Card a {
+	text-align: center;
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(41, 36, 36);
+	border-bottom: 2px solid rgb(41, 36, 36);
+}
+
+.Card a:hover {
+	color: white;
+	border-bottom: 2px solid white;
+	text-transform: uppercase;
+}
