@@ -4,6 +4,7 @@ import djangoLogo from "../../assets/images/djangoLogo.png";
 import communitiesLogo from "../../assets/images/communitiesLogo.png";
 import htmlLogo from "../../assets/images/htmlLogo.png";
 import cssLogo from "../../assets/images/cssLogo.png";
+import interviewLogo from "../../assets/images/interviewLogo.png";
 import { Fragment } from "react";
 
 const Resources = () => {
@@ -127,6 +128,31 @@ const Resources = () => {
 					id: 3,
 					url: "https://roadmapcommunity.slack.com/join/shared_invite/zt-tjdar436-klYzFiNFroU_zNvsE9Q2JA?ref=thehiveindex.com&utm_source=thehiveindex.com#/shared-invite/email/expanded-email-form",
 					title: "Slack - RoadMap Community",
+				},
+			],
+		},
+
+		{
+			id: 6,
+			title: "Interview Preparation",
+			body: "The key to putting in a good performance and securing the job is preparation. Take a look at these tips to get you interview ready!",
+			imageUrl:
+				interviewLogo,
+			links: [
+				{
+					id: 1,
+					url: "https://www.freecodecamp.org/news/coding-interview-preparation/",
+					title: "FreeCodeCamp - Interview Prep",
+				},
+				{
+					id: 2,
+					url: "https://www.udacity.com/course/full-stack-interview-prep--ud252",
+					title: "Udacity - Full-Stack Interview Prep",
+				},
+				{
+					id: 3,
+					url: "https://www.techinterviewhandbook.org/software-engineering-interview-guide/",
+					title: "Tech Interview Handbook",
 				},
 			],
 		},
