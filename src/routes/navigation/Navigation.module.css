@@ -39,6 +39,7 @@
 	color: #f2d4d1;
 	font-size: 50px;
 	cursor: pointer;
+	z-index: 1;
 }
 
 .closed {
@@ -48,6 +49,7 @@
 	justify-content: flex-start;
 	width: 100%;
 	padding: 5px 20px;
+	z-index: 1;
 }
 
 .closed .close {
