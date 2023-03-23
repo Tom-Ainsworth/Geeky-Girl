@@ -12,7 +12,7 @@ const SuccessStories = () => {
 							supporting women in the industry.
 						</p>
 					</blockquote>
-					<h3>Joshua Ravenside</h3>
+					<h3>Sarah Ravenside</h3>
 					<h4>Delloite</h4>
 				</figcaption>
 			</figure>
