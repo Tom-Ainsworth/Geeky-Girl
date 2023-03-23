@@ -71,8 +71,10 @@ const Navigation = () => {
 					</ul>
 				</nav>
 			</div>
-			<Outlet />
-			<Footer />
+			<div className={styles.Main}>
+				<Outlet />
+				<Footer />
+			</div>
 		</>
 	);
 };
