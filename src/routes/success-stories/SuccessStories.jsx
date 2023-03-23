@@ -2,7 +2,7 @@ import styles from "./SuccessStories.module.css";
 
 const SuccessStories = () => {
 	return (
-		<div className={styles.testimonial}>
+		<div className={styles.container}>
 			<figure className={styles.successCard}>
 				<figcaption>
 					<blockquote>

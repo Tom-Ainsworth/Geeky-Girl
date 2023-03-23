@@ -16,9 +16,10 @@ const Home = () => {
 		{
 			title: "Lack of Female Role Models in Tech",
 			content:
-				"Lack of role models is one of the main challenges women in tech confront.In tech firms, women are frequently underrepresented in executive roles. According to Finances Online, Women hold less than 20 % of all leadership positions in technology.For women, this might make it challenging to develop in their jobs and accomplish their objectives.Lack of role models can sometimes cause a person to feel alone and discouraged.It's simple to believe you don't belong or are incapable of succeeding when you don't see someone relatable in a leadership role.",
+				"Lack of role models is one of the main challenges women in tech confront. In tech firms, women are frequently underrepresented in executive roles. According to Finances Online, Women hold less than 20 % of all leadership positions in technology.For women, this might make it challenging to develop in their jobs and accomplish their objectives.Lack of role models can sometimes cause a person to feel alone and discouraged. It's simple to believe you don't belong or are incapable of succeeding when you don't see someone relatable in a leadership role.",
 		},
 	];
+
 	return (
 		<div className={styles.Home}>
 			<div className={styles.hero_image_outer}>
@@ -31,23 +32,9 @@ const Home = () => {
 			<div className={styles.container}>
 				{industryStateCards.map(({ title, content }) => {
 					return (
-						<div className={styles.box}>
-							<h3>Lack of Female Role Models in Tech</h3>
-							<p>
-								Lack of role models is one of the main
-								challenges women in tech confront.In tech firms,
-								women are frequently underrepresented in
-								executive roles.According to Finances Online,
-								Women hold less than 20 % of all leadership
-								positions in technology.For women, this might
-								make it challenging to develop in their jobs and
-								accomplish their objectives.Lack of role models
-								can sometimes cause a person to feel alone and
-								discouraged.It's simple to believe you don't
-								belong or are incapable of succeeding when you
-								don't see someone relatable in a leadership
-								role.
-							</p>
+						<div className={styles.Card}>
+							<h3>{title}</h3>
+							<p>{content}</p>
 						</div>
 					);
 				})}

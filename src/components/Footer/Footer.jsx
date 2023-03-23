@@ -9,26 +9,26 @@ const Footer = () => {
 					Geeky<span>GIRL</span>
 				</h3>
 
-
-
 				<p className={styles.footer_companyName}>
-					Tindy and her minions{" "}
+					Tindy and her minions
 				</p>
 
 				<div className={styles.footer_icons}>
-					<a href="https://github.com/tindyc" target='_blank' >
+					<a href="https://github.com/tindyc" target="_blank">
 						<i className="fa fa-github"></i>
 					</a>
-					<a href="https://github.com/Benjamin-Riordan" target='_blank'>
+					<a
+						href="https://github.com/Benjamin-Riordan"
+						target="_blank">
 						<i className="fa fa-github"></i>
 					</a>
-					<a href="https://github.com/Tom-Ainsworth" target='_blank' >
+					<a href="https://github.com/Tom-Ainsworth" target="_blank">
 						<i className="fa fa-github"></i>
 					</a>
-					<a href="https://github.com/rockroman" target='_blank'>
+					<a href="https://github.com/rockroman" target="_blank">
 						<i className="fa fa-github"></i>
 					</a>
-					<a href="https://github.com/ignasvilkas" target='_blank'>
+					<a href="https://github.com/ignasvilkas" target="_blank">
 						<i className="fa fa-github"></i>
 					</a>
 				</div>
